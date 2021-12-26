@@ -19,5 +19,5 @@ function Calculate() {
 	const total = ((amount / months) + interest).toFixed(2);
 
 	document.querySelector("#total")
-		.innerHTML = "EMI : (₹)" + total;
+		.innerHTML = "EMI :Rupees" + total;
 }
